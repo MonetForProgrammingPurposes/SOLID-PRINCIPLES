@@ -124,3 +124,17 @@ D — Dependency Inversion Principle
 This principle suggest that “classes should depend on abstraction but not on concretion”. What does it mean that we should be having object of interface which helps us to communicate with the concrete classes. What do we gain from this is, we hide the actual implementation of class A from the class B. So if class A changes the class B doesn’t need to care or know about the changes.
 
 In android if we are following MVP pattern then we need to keep reference of Presenter in our View. Now if we keep the Presenter concrete class object in View then it leads to tight coupling. So what we do is we create a interface which abstracts the implementation of presenter and our view class keeps the reference of the PresenterInterface.
+
+
+Link to my GitHub Repository (Documentation)
+
+https://github.com/MonetForProgrammingPurposes/SOLID-PRINCIPLES
+
+
+References
+
+https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+
+https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/
+
+https://www.baeldung.com/solid-principles
